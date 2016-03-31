@@ -1,0 +1,75 @@
+body{
+    margin: 0px;
+}
+body > div{
+    color: white;
+    background: black;
+    display: flex;
+    flex-flow: row wrap; 
+}
+body > div > header, nav, main, aside, footer  {
+    background: #333;
+    border-radius: 7px;
+    margin: 5px;
+    padding: 20px;
+}
+
+body > div > header{
+    order: 1; 
+    height: 100px; 
+    flex: 0 1 100%;
+}
+body > div > nav{
+    order: 2; 
+    flex: 0 1 200px;
+}
+body > div > main{
+    background: black;
+    order: 3; 
+    flex: 1;
+    min-height: 250px;
+}
+figure#frame{
+    display: flex;
+    justify-content: center;    
+    align-content: center;  
+    margin: auto;
+    padding: auto;
+}
+figure#frame > img{
+    /*    display: inline-block;*/
+    max-height: 400px;
+}
+div#thumbnailbox{
+    flex-flow: row nowrap;
+    width: 50%;
+    display: flex;
+    margin: auto;
+    padding: auto;
+    justify-content: center;    
+    align-content: center;
+    justify-content: space-between;
+}
+div#thumbnailbox > div{
+    display: inline-flex;
+    cursor: pointer;
+}
+div#thumbnailbox > div > img {
+    max-height: 50px;
+    min-height: 30px;
+}
+body > div > aside{
+    order: 4; 
+    flex:  0 1 200px;
+    flex-flow: column nowrap;
+
+}
+#aside > div > form > input, iframe, p, img {
+    margin: 10px auto 10px auto;
+    padding: 10px auto 10px auto;
+}
+body > div > footer{
+    order: 5; 
+    height: 100px;
+    flex:  0 1 100%;
+}

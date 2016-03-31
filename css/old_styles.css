@@ -1,0 +1,45 @@
+/*body {background: #000;
+      font-size: 20px;
+      color: #CCC;
+}
+#flex_container {
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center; 
+    align-content: center;
+        margin: auto;
+        padding: auto;
+}
+div#navbar {
+    background: #333;
+    border-bottom: #000 1px solid; 
+    text-align: center;
+    height: 75px;
+    width: 90%;
+    max-width: 800px;
+    margin: 5px auto 15px auto;
+    padding: 10 px auto; 
+    overflow: visible;
+    resize: both;
+    font-size: 36px; 
+    color: white;
+}
+
+div#image_wrapper{
+    max-width: 50%;
+    width: 40%;
+    margin: 20px auto 70px auto;
+    padding: auto;
+    display: block;
+    display: flex;
+}
+div#image_wrapper > img{
+    display: flex-inline;
+    width: 50%;
+    margin: auto;
+    padding: auto;
+    display: block;
+    vertical-align: mddle;
+}
+*/
