@@ -7,7 +7,7 @@ $title = $_POST['title'];
 $filename = $title;
 $format = ".png";
 $src = "$dir$filename$format";
-
+$lol = "lol";
 if(file_exists($src)) {
     $errormsg = "The file $file exists";
     if(unlink($src)){
